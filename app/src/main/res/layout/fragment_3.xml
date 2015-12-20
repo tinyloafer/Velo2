@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    
+   >
+
+     <LinearLayout
+         android:layout_marginTop="80dp"
+          android:layout_marginLeft="20dp"
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|start"
+            android:gravity="center"
+            android:text="Temperature Reminder"
+            android:textSize="24sp" />
+
+        <ToggleButton
+            android:id="@+id/COTmpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:background="@drawable/bt_button"
+            android:checked="false"
+            android:gravity="center"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/linearlayout1"
+         android:layout_marginLeft="20dp"
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:orientation="horizontal"
+         android:focusable="true"
+         android:focusableInTouchMode="true" >
+
+        <TextView
+            android:id="@+id/TmpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|start"
+            android:text="Set temperature:"
+            android:textSize="24sp" />
+
+        <EditText 
+             android:id="@+id/exTmp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"/>
+      
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:text="℃"
+            android:textSize="24sp" />
+        <Button 
+            android:id="@+id/btTmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_gravity="center_vertical|end"
+             android:text="OK"
+             android:textSize="24sp"
+            
+            />
+
+    </LinearLayout>
+     <LinearLayout
+          android:layout_marginLeft="20dp"
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+        
+         android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|start"
+            android:gravity="start"
+            android:text="Time Reminder"
+            android:textSize="24sp" />
+
+        <ToggleButton
+            android:id="@+id/COTimeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:background="@drawable/bt_button"
+            android:checked="false"
+            android:gravity="center"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+    </LinearLayout>
+    <LinearLayout 
+   		 android:layout_marginBottom="80dp"
+         android:layout_marginLeft="20dp"
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:orientation="horizontal" >
+		 <TextView
+		    android:id="@+id/tv_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:text="00 : "
+            android:textSize="24sp" 
+            android:textColor="#C0C0C0"/>
+		 
+		   <TextView
+		    android:id="@+id/tv_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:text="00"
+            android:textSize="24sp"
+            android:textColor="#C0C0C0" />
+       
+       
+    </LinearLayout>
+    
+</LinearLayout-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="140dp"
+        android:id="@+id/find_btn"
+        android:background="@drawable/loc_btn"
+        android:layout_gravity="center"
+        android:onClick="findBike"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/find_txt2"
+        android:layout_gravity="center" />
+</LinearLayout>

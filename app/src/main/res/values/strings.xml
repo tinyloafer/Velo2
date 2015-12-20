@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Velo</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="hello_world">Hello world!</string>
+	 
+    <string name="menu_settings">Settings</string>
+
+    <string name="unknown_device">Unknown device</string>
+
+    <string name="unknown_characteristic">Unknown characteristic</string>
+
+    <string name="unknown_service">Unknown service</string>
+
+    <string name="ble_not_supported">BLE not supported</string>
+
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="no_connection">No Bluetooth connection!</string>
+
+    <!--string name="ok">Confirm</string-->
+
+    <string name="noblue">不支持蓝牙设备!</string>
+    <string name="opening">正在为您打开蓝牙设备</string>
+    <string name="opened">您的蓝牙设备已经准备就绪，可以使用啦！</string>
+    <string name="nobluetooth">您的设备不支持蓝牙，请更换设备后再试试吧！</string>
+    <string name="kaiqi">蓝牙开启成功！</string>
+    <string name="huoqu">获取数据</string>
+    <string name="title1">血压测</string>
+    <string name="title2">量(蓝牙)</string>
+    <string name="shousuoya">收缩压</string>
+    <string name="danwei">(mmHg)</string>
+    <string name="kpa">kPa</string>
+    <string name="shuzhangya">舒张压</string>
+    <string name="maibo">脉搏</string>
+    <string name="chushihua">---</string>
+    <string name="submit">确定</string>
+    <string name="ok">确定</string>
+    <string name="register">注册</string>
+    <string name="bitian">必填</string>
+    <string name="xuantian">选填</string>
+    <string name="back">返回</string>
+    <string name="hint">温馨提示</string>
+    <string name="exit">您确定要退出Smart Cup软件吗?</string>
+    <string name="closeBTSuccessfully">蓝牙已经成功关闭</string>
+    <string name="searchError">没有找到相关蓝牙设备.</string>
+    <string name="loading">正在为您获取数据，请稍等</string>
+    <string name="searching">正在为您搜索附近蓝牙设备，请稍等</string>
+    <string name="ConfirmBTisOpen">连接失败，请确认您的Smart Cup已打开</string>
+    <string name="binding">正在绑定设备....</string>
+    <string name="dataError">数据错误，请从新测量后获取数据。</string>
+    <string name="parError">您的蓝牙设备配对中出现异常，请重试</string>
+    <string name="username">名称：</string>
+    <string name="pasword">密码：</string>
+
+</resources>
